@@ -11,7 +11,6 @@ function hot_primary_tout_defaultconfig_features() {
   return array(
     'hot_primary_tout' => array(
       'field_default_fields' => 'field_default_fields',
-      'strongarm' => 'strongarm',
       'user_default_permissions' => 'user_default_permissions',
     ),
   );
@@ -23,8 +22,8 @@ function hot_primary_tout_defaultconfig_features() {
 function hot_primary_tout_defaultconfig_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_caption'.
-  $fields['fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_caption'] = array(
+  // Exported field: 'fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_caption'.
+  $fields['fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_caption'] = array(
     'field_config' => array(
       'active' => 1,
       'cardinality' => 1,
@@ -51,13 +50,13 @@ function hot_primary_tout_defaultconfig_field_default_fields() {
       'type' => 'text_long',
     ),
     'field_instance' => array(
-      'bundle' => 'hot_primary_tout_quarter',
+      'bundle' => 'hot_primary_tout_third',
       'default_value' => NULL,
       'deleted' => 0,
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'text',
           'settings' => array(),
           'type' => 'text_default',
@@ -88,8 +87,8 @@ function hot_primary_tout_defaultconfig_field_default_fields() {
     ),
   );
 
-  // Exported field: 'fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_image'.
-  $fields['fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_image'] = array(
+  // Exported field: 'fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_image'.
+  $fields['fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_image'] = array(
     'field_config' => array(
       'active' => 1,
       'cardinality' => 1,
@@ -119,18 +118,18 @@ function hot_primary_tout_defaultconfig_field_default_fields() {
       'type' => 'image',
     ),
     'field_instance' => array(
-      'bundle' => 'hot_primary_tout_quarter',
+      'bundle' => 'hot_primary_tout_third',
       'deleted' => 0,
       'description' => '',
       'display' => array(
         'default' => array(
-          'label' => 'above',
+          'label' => 'hidden',
           'module' => 'picture',
           'settings' => array(
-            'colorbox' => 'hot_primary_tout_4',
-            'fallback_image_style' => 'hot_primary_tout_4',
+            'colorbox' => 'hot_primary_tout_3',
+            'fallback_image_style' => 'hot_primary_tout_3',
             'image_link' => '',
-            'picture_group' => 'hot_primary_tout_4',
+            'picture_group' => 'hot_primary_tout_3',
           ),
           'type' => 'picture',
           'weight' => 0,
@@ -173,71 +172,28 @@ function hot_primary_tout_defaultconfig_field_default_fields() {
 }
 
 /**
- * Implements hook_defaultconfig_strongarm().
- */
-function hot_primary_tout_defaultconfig_strongarm() {
-  $export = array();
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__hot_primary_tout_quarter';
-  $strongarm->value = array(
-    'view_modes' => array(
-      'full' => array(
-        'custom_settings' => FALSE,
-      ),
-      'diff_standard' => array(
-        'custom_settings' => FALSE,
-      ),
-      'token' => array(
-        'custom_settings' => FALSE,
-      ),
-    ),
-    'extra_fields' => array(
-      'form' => array(
-        'title' => array(
-          'weight' => '-5',
-        ),
-      ),
-      'display' => array(
-        'title' => array(
-          'default' => array(
-            'weight' => '-5',
-            'visible' => TRUE,
-          ),
-        ),
-      ),
-    ),
-  );
-  $export['field_bundle_settings_fieldable_panels_pane__hot_primary_tout_quarter'] = $strongarm;
-
-  return $export;
-}
-
-/**
  * Implements hook_defaultconfig_user_default_permissions().
  */
 function hot_primary_tout_defaultconfig_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: 'create fieldable hot_primary_tout_quarter'.
-  $permissions['create fieldable hot_primary_tout_quarter'] = array(
-    'name' => 'create fieldable hot_primary_tout_quarter',
+  // Exported permission: 'create fieldable hot_primary_tout_third'.
+  $permissions['create fieldable hot_primary_tout_third'] = array(
+    'name' => 'create fieldable hot_primary_tout_third',
     'roles' => array(),
     'module' => 'fieldable_panels_panes',
   );
 
-  // Exported permission: 'delete fieldable hot_primary_tout_quarter'.
-  $permissions['delete fieldable hot_primary_tout_quarter'] = array(
-    'name' => 'delete fieldable hot_primary_tout_quarter',
+  // Exported permission: 'delete fieldable hot_primary_tout_third'.
+  $permissions['delete fieldable hot_primary_tout_third'] = array(
+    'name' => 'delete fieldable hot_primary_tout_third',
     'roles' => array(),
     'module' => 'fieldable_panels_panes',
   );
 
-  // Exported permission: 'edit fieldable hot_primary_tout_quarter'.
-  $permissions['edit fieldable hot_primary_tout_quarter'] = array(
-    'name' => 'edit fieldable hot_primary_tout_quarter',
+  // Exported permission: 'edit fieldable hot_primary_tout_third'.
+  $permissions['edit fieldable hot_primary_tout_third'] = array(
+    'name' => 'edit fieldable hot_primary_tout_third',
     'roles' => array(),
     'module' => 'fieldable_panels_panes',
   );

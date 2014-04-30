@@ -10,15 +10,15 @@
 function hot_primary_tout_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_caption'
-  $field_instances['fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_caption'] = array(
-    'bundle' => 'hot_primary_tout_quarter',
+  // Exported field_instance: 'fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_caption'
+  $field_instances['fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_caption'] = array(
+    'bundle' => 'hot_primary_tout_third',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
@@ -48,20 +48,20 @@ function hot_primary_tout_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_image'
-  $field_instances['fieldable_panels_pane-hot_primary_tout_quarter-field_hot_primary_tout_image'] = array(
-    'bundle' => 'hot_primary_tout_quarter',
+  // Exported field_instance: 'fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_image'
+  $field_instances['fieldable_panels_pane-hot_primary_tout_third-field_hot_primary_tout_image'] = array(
+    'bundle' => 'hot_primary_tout_third',
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'picture',
         'settings' => array(
-          'colorbox' => 'hot_primary_tout_4',
-          'fallback_image_style' => 'hot_primary_tout_4',
+          'colorbox' => 'hot_primary_tout_3',
+          'fallback_image_style' => 'hot_primary_tout_3',
           'image_link' => '',
-          'picture_group' => 'hot_primary_tout_4',
+          'picture_group' => 'hot_primary_tout_3',
         ),
         'type' => 'picture',
         'weight' => 0,

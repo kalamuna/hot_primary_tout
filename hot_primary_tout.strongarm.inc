@@ -13,7 +13,7 @@ function hot_primary_tout_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__hot_primary_tout_quarter';
+  $strongarm->name = 'field_bundle_settings_fieldable_panels_pane__hot_primary_tout_third';
   $strongarm->value = array(
     'view_modes' => array(
       'full' => array(
@@ -42,7 +42,7 @@ function hot_primary_tout_strongarm() {
       ),
     ),
   );
-  $export['field_bundle_settings_fieldable_panels_pane__hot_primary_tout_quarter'] = $strongarm;
+  $export['field_bundle_settings_fieldable_panels_pane__hot_primary_tout_third'] = $strongarm;
 
   return $export;
 }

@@ -28,9 +28,9 @@ function hot_primary_tout_ctools_plugin_api($module = NULL, $api = NULL) {
 function hot_primary_tout_image_default_styles() {
   $styles = array();
 
-  // Exported image style: hot_primary_tout_4.
-  $styles['hot_primary_tout_4'] = array(
-    'name' => 'hot_primary_tout_4',
+  // Exported image style: hot_primary_tout_3.
+  $styles['hot_primary_tout_3'] = array(
+    'name' => 'hot_primary_tout_3',
     'label' => 'Picture Third',
     'effects' => array(
       22 => array(
@@ -52,10 +52,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-lg_1x.
-  $styles['hot_primary_tout_4_breakpoints_screen-lg_1x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-lg_1x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-lg_1x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-lg_1x.
+  $styles['hot_primary_tout_3_breakpoints_screen-lg_1x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-lg_1x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-lg_1x',
     'effects' => array(
       23 => array(
         'label' => 'Scale',
@@ -76,10 +76,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-lg_2x.
-  $styles['hot_primary_tout_4_breakpoints_screen-lg_2x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-lg_2x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-lg_2x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-lg_2x.
+  $styles['hot_primary_tout_3_breakpoints_screen-lg_2x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-lg_2x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-lg_2x',
     'effects' => array(
       24 => array(
         'label' => 'Scale',
@@ -100,10 +100,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-md_1x.
-  $styles['hot_primary_tout_4_breakpoints_screen-md_1x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-md_1x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-md_1x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-md_1x.
+  $styles['hot_primary_tout_3_breakpoints_screen-md_1x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-md_1x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-md_1x',
     'effects' => array(
       25 => array(
         'label' => 'Scale',
@@ -124,10 +124,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-md_2x.
-  $styles['hot_primary_tout_4_breakpoints_screen-md_2x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-md_2x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-md_2x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-md_2x.
+  $styles['hot_primary_tout_3_breakpoints_screen-md_2x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-md_2x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-md_2x',
     'effects' => array(
       26 => array(
         'label' => 'Scale',
@@ -148,10 +148,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-sm_1x.
-  $styles['hot_primary_tout_4_breakpoints_screen-sm_1x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-sm_1x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-sm_1x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-sm_1x.
+  $styles['hot_primary_tout_3_breakpoints_screen-sm_1x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-sm_1x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-sm_1x',
     'effects' => array(
       28 => array(
         'label' => 'Scale',
@@ -172,10 +172,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-sm_2x.
-  $styles['hot_primary_tout_4_breakpoints_screen-sm_2x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-sm_2x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-sm_2x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-sm_2x.
+  $styles['hot_primary_tout_3_breakpoints_screen-sm_2x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-sm_2x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-sm_2x',
     'effects' => array(
       29 => array(
         'label' => 'Scale',
@@ -196,10 +196,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-xs_1x.
-  $styles['hot_primary_tout_4_breakpoints_screen-xs_1x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-xs_1x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-xs_1x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-xs_1x.
+  $styles['hot_primary_tout_3_breakpoints_screen-xs_1x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-xs_1x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-xs_1x',
     'effects' => array(
       33 => array(
         'label' => 'Scale',
@@ -220,10 +220,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-xs_2x.
-  $styles['hot_primary_tout_4_breakpoints_screen-xs_2x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-xs_2x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-xs_2x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-xs_2x.
+  $styles['hot_primary_tout_3_breakpoints_screen-xs_2x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-xs_2x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-xs_2x',
     'effects' => array(
       34 => array(
         'label' => 'Scale',
@@ -244,10 +244,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-xxs_1x.
-  $styles['hot_primary_tout_4_breakpoints_screen-xxs_1x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-xxs_1x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-xxs_1x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-xxs_1x.
+  $styles['hot_primary_tout_3_breakpoints_screen-xxs_1x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-xxs_1x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-xxs_1x',
     'effects' => array(
       30 => array(
         'label' => 'Scale',
@@ -268,10 +268,10 @@ function hot_primary_tout_image_default_styles() {
     ),
   );
 
-  // Exported image style: hot_primary_tout_4_breakpoints_screen-xxs_2x.
-  $styles['hot_primary_tout_4_breakpoints_screen-xxs_2x'] = array(
-    'name' => 'hot_primary_tout_4_breakpoints_screen-xxs_2x',
-    'label' => 'hot_primary_tout_4_breakpoints_screen-xxs_2x',
+  // Exported image style: hot_primary_tout_3_breakpoints_screen-xxs_2x.
+  $styles['hot_primary_tout_3_breakpoints_screen-xxs_2x'] = array(
+    'name' => 'hot_primary_tout_3_breakpoints_screen-xxs_2x',
+    'label' => 'hot_primary_tout_3_breakpoints_screen-xxs_2x',
     'effects' => array(
       31 => array(
         'label' => 'Scale',
