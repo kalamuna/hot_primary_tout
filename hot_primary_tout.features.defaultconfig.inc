@@ -140,7 +140,7 @@ function hot_primary_tout_defaultconfig_field_default_fields() {
       'label' => '1/3 Image',
       'required' => 0,
       'settings' => array(
-        'alt_field' => 0,
+        'alt_field' => 1,
         'default_image' => 0,
         'file_directory' => '',
         'file_extensions' => 'png gif jpg jpeg',
