@@ -10,6 +10,7 @@ dependencies[] = defaultconfig
 dependencies[] = features
 dependencies[] = fieldable_panels_panes
 dependencies[] = image
+dependencies[] = panopoly_widgets
 dependencies[] = picture
 dependencies[] = strongarm
 dependencies[] = text
