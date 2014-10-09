@@ -14,8 +14,11 @@ Things you will need to do:
 
 Then all you need to do is just create the FPP.  This uses entity so it will just appear in the pane selection above add text or whatever.
 
-NOTE
+NOTES
 ===================
+
+You need Picture 2.x branch to use this module (1.x doesnt work well with newer version of Panopoly)
+
 Make sure you upload the image in the panel pane, otherwise it will nto work work
 
 You can also put &lt;none&gt; in the title as well.
